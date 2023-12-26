@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "431272548946",
+    "project_id": "simple-app-mobile",
+    "storage_bucket": "simple-app-mobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:431272548946:android:43a1402e380759bce5dd8b",
+        "android_client_info": {
+          "package_name": "com.simpapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDi1JD_FEpCr1dJw_Lo0j27iVGr9bvH8PU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
