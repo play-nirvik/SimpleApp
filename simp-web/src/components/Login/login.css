@@ -1,0 +1,9 @@
+.formlabel {
+    width: 5rem;
+    display: inline-block;
+    margin-right: 0.5rem;
+}
+
+.fieldgroup,button {
+    margin-bottom: 1rem;
+}

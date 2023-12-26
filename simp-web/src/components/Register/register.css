@@ -1,0 +1,25 @@
+.formlabel {
+    width: 5rem;
+    display: inline-block;
+    margin-right: 0.5rem;
+}
+
+.fieldgroup,button {
+    margin-bottom: 1rem;
+}
+
+.link {
+    display: block;
+}
+
+.fieldselect {
+    width: 9rem;
+    padding: 3px;
+}
+
+.errorText {
+    color: #d50000;
+    padding: 0.5rem;
+    display: inline-block;
+    width: 16rem;
+}

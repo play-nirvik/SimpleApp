@@ -1,0 +1,9 @@
+{
+  "translation": {
+    "greeting": "Hola",
+    "push": {
+      "title": "Probar notificaciones push",
+      "content": "Esta es una notificación push de prueba"
+    }
+  }
+}

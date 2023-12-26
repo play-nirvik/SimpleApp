@@ -1,0 +1,10 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #eee !important;
+}
+
+.signout-conatiner {
+    margin-top: 1rem;
+}

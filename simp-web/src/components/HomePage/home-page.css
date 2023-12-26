@@ -1,0 +1,14 @@
+.body-content {
+    display: flex;
+    height: 85vh;
+    padding: 1rem;
+    flex-direction: column;
+}
+
+.langSelector {
+    flex: 1;
+}
+
+.langSelector .formlabel {
+    width: auto;
+}
