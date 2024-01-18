@@ -1,4 +1,4 @@
-import AsyncStorage from '@react-native-community/async-storage';
+import EncryptedStorage from 'react-native-encrypted-storage';
 import React, {createContext, useContext, useEffect, useState} from 'react';
 
 export const ThemeContext = createContext<ThemeProps>({});
@@ -12,7 +12,7 @@ export const ThemeProvider = ({children}: any) => {
 
   useEffect(() => {
     const loadTheme = async () => {
-      const themeCountry = await AsyncStorage.getItem('theme');
+      const themeCountry = await EncryptedStorage.getItem('theme');
 
       if (themeCountry) {
         setTheme(themeCountry);
@@ -75,7 +75,7 @@ export const ThemeProvider = ({children}: any) => {
   };
 
   const updateHandler = async () => {
-    const themeCountry = await AsyncStorage.getItem('theme');
+    const themeCountry = await EncryptedStorage.getItem('theme');
 
     setTheme(themeCountry);
   };

@@ -1,4 +1,4 @@
-import AsyncStorage from '@react-native-community/async-storage';
+import EncryptedStorage from 'react-native-encrypted-storage';
 import axios from 'axios';
 import React, {createContext, useContext, useEffect, useState} from 'react';
 import {API_URL} from '../config/constants';
@@ -59,7 +59,7 @@ export const AuthProvider = ({children}: any) => {
       });
 
       UserService.set(result.data);
-      await AsyncStorage.setItem('theme', result.data.country);
+      await EncryptedStorage.setItem('theme', result.data.country);
       setTheme(result.data.country);
 
       return result;
@@ -71,7 +71,7 @@ export const AuthProvider = ({children}: any) => {
 
   const logoutHandler = async () => {
     UserService.delete();
-    await AsyncStorage.removeItem('theme');
+    await EncryptedStorage.removeItem('theme');
 
     setAuthState({
       token: null,

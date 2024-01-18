@@ -7,10 +7,10 @@ import NotificationService from './services/NotificationService';
 import Layout from './components/common/Layout';
 
 function App(): React.JSX.Element {
-  useEffect(() => {
-    NotificationService.requestUserPermission();
-    NotificationService.notificationListener();
-  }, []);
+  // useEffect(() => {
+  //   NotificationService.requestUserPermission();
+  //   NotificationService.notificationListener();
+  // }, []);
 
   return (
     <SafeAreaProvider>

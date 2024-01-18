@@ -9,7 +9,7 @@ import {
   Pressable,
 } from 'react-native';
 import {useAuth} from '../../context/AuthContext';
-import {TextInput} from 'react-native-gesture-handler';
+import {TextInput} from 'react-native';
 import {SUPPORTED_COUNTRIES} from '../../config/constants';
 import DropDownPicker from 'react-native-dropdown-picker';
 import {validateRegex} from '../../utils/validateRegex';

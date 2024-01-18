@@ -52,6 +52,7 @@ export default function HomePage(): React.JSX.Element {
         setItems={setItems}
         style={styles.languageDropdown}
         listMode="MODAL"
+        testID="languageDropdownButton"
       />
     </View>
   );

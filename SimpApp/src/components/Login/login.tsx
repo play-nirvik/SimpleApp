@@ -9,7 +9,7 @@ import {
   Pressable,
 } from 'react-native';
 import {useAuth} from '../../context/AuthContext';
-import {TextInput} from 'react-native-gesture-handler';
+import {TextInput} from 'react-native';
 
 export default function Login(props: LoginProps): React.JSX.Element {
   const {navigation} = props;
